@@ -1,6 +1,8 @@
 name: Build Nitrox
 
-on: ["push", "workflow_dispatch"]
+on:
+  push:
+  pull_request:
 
 jobs:
   buildLinux:
